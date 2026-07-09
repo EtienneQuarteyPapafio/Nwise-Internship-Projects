@@ -2,9 +2,9 @@
 Hands-on CyberSecurity internship projects showing practical experience with Tooling, Triaging, and Digital Forensics through technical documentation.
 
 # Projects
-Week 1: https://github.com/EtienneQuarteyPapafio
-Week 2: https://github.com/EtienneQuarteyPapafio
-Week 3: https://github.com/EtienneQuarteyPapafio
+  Week 1: https://github.com/EtienneQuarteyPapafio  
+  Week 2: https://github.com/EtienneQuarteyPapafio  
+  Week 3: https://github.com/EtienneQuarteyPapafio
 
 
 
