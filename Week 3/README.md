@@ -1,12 +1,11 @@
-# Nwise-Internship-Projects
+# Nwise-Internship-Project Week 3
 Hands-on CyberSecurity internship projects showing practical experience with Tooling, Triaging, and Digital Forensics through technical documentation.
 
-# Projects
-  Week 1: https://github.com/EtienneQuarteyPapafio  
-  Week 2: https://github.com/EtienneQuarteyPapafio  
-  Week 3: https://github.com/EtienneQuarteyPapafio
+# Objectives
+For week 3 our objectives were to
 
-
+Kali pinging google: 
+![alt text](https://github.com/EtienneQuarteyPapafio/Nwise-Internship-Projects/blob/main/Week%201/Screenshots/KaliPingGoogle.png)
 
 # Author
 
