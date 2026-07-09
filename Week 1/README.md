@@ -1,4 +1,4 @@
-# Nwise-Internship-Project week 1
+# Nwise-Internship-Project Week 1
 Hands-on CyberSecurity internship projects showing practical experience with Tooling, Triaging, and Digital Forensics through technical documentation.
 
 # Objectives
