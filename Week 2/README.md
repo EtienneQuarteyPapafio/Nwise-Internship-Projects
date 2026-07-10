@@ -2,7 +2,7 @@
 Hands-on CyberSecurity internship projects showing practical experience with Tooling, Triaging, and Digital Forensics through technical documentation.
 
 # Objectives
-For week 2 our objectives were to
+For week 2 our objectives were to use Nmap to discover devices on our network and identify services they are running, and to use wireshark to capture and analyse network traffic. We also learnt how to recognise normal network behaviour, and identify signs of suspicious and malicious traffic patterns.
 
 Kali pinging google: 
 ![alt text](https://github.com/EtienneQuarteyPapafio/Nwise-Internship-Projects/blob/main/Week%201/Screenshots/KaliPingGoogle.png)
