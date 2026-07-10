@@ -6,6 +6,12 @@ For week 2 our objectives were to use Nmap to discover devices on our network an
 
 For this scenario we have joined a SOC team and have deployed a new Ubuntu server, we are tasked with confirming that it is reachable, identify services on the server, and can capture netwrok traffic generated when communicating with it.
 
+For the beginner lab we had the task of using Kali and nmap to scan open ports on an ubuntu os, both machines are connected to a host only virtual network with the ip addresses:
+
+Kali: 192.xxx.xxx.xx3
+
+Ubuntu:192.xxx.xxx.xx4
+
 Kali pinging google: 
 ![alt text](https://github.com/EtienneQuarteyPapafio/Nwise-Internship-Projects/blob/main/Week%201/Screenshots/KaliPingGoogle.png)
 
