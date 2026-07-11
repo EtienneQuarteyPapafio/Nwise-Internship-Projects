@@ -45,9 +45,13 @@ By filtering out the capture again we can see the ARP protocol, this protocol oc
 
 ![alt text](https://github.com/EtienneQuarteyPapafio/Nwise-Internship-Projects/blob/main/Week%202/Screenshots/9%20ARP.png)
 
+We do not see any TCP packets when filtering for them as there are not any TCP messages that are sent from pings as they use different protocols.
+
+![alt text](https://github.com/EtienneQuarteyPapafio/Nwise-Internship-Projects/blob/main/Week%202/Screenshots/10%20TCP.png)
+
+However once we make an SSH connection to Ubuntu from Kali, recapture the network packets, and filter for TCP we can see a multitude of TCP messages being sent. TCP needs reliable communication and does not skip the handshake process unlike UDP, this ensures messages are not corrupted during transport. 
+
 ![alt text]()
-
-
 
 # Author
 
