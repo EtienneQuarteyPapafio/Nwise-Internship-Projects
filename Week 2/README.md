@@ -12,6 +12,8 @@ Kali: 192.xxx.xxx.xx3
 
 Ubuntu:192.xxx.xxx.xx4
 
+Kali pinging Ubuntu: 
+![alt text](https://github.com/EtienneQuarteyPapafio/Nwise-Internship-Projects/blob/main/Week%202/Screenshots/1%20Kali%20ping%20Ubuntu.png)
 
 
 # Author
