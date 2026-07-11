@@ -12,8 +12,15 @@ Kali: 192.xxx.xxx.xx3
 
 Ubuntu:192.xxx.xxx.xx4
 
+First we have to ensure that Ubuntu is on the same network, a ping from Kali shows a 0% packet loss, verifying an active and reachable device.
 Kali pinging Ubuntu: 
 ![alt text](https://github.com/EtienneQuarteyPapafio/Nwise-Internship-Projects/blob/main/Week%202/Screenshots/1%20Kali%20ping%20Ubuntu.png)
+
+Next we had to confirm the status of a Secure Shell Service on the Ubuntu by using 'sudo systemctl status ssh'. The status showed an installed and configured secure shell that was inactive, this inactivity was reflected in an nmap scan of the Ubuntu VM.
+![alt text](https://github.com/EtienneQuarteyPapafio/Nwise-Internship-Projects/blob/main/Week%202/Screenshots/2%20Nmap%20scan.png)
+
+Using command 'sudo systemctl start ssh' activates the service to start listening for connections, a re-entry of '..status ssh' shows the activate state and the service listening on port 22.
+![alt text](https://github.com/EtienneQuarteyPapafio/Nwise-Internship-Projects/blob/main/Week%202/Screenshots/3%20SSH%20Status.png)
 
 
 # Author
