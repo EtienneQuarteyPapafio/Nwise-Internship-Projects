@@ -51,7 +51,17 @@ We do not see any TCP packets when filtering for them as there are not any TCP m
 
 However once we make an SSH connection to Ubuntu from Kali, recapture the network packets, and filter for TCP we can see a multitude of TCP messages being sent. TCP needs reliable communication and does not skip the handshake process unlike UDP, this ensures messages are not corrupted during transport. 
 
-![alt text]()
+![alt text](https://github.com/EtienneQuarteyPapafio/Nwise-Internship-Projects/blob/main/Week%202/Screenshots/11%20TCP%2022.png)
+
+We are asked a scenario at the end of our tasks,
+
+Imagine you capture the following events: 
+• Hundreds of connection attempts within a few seconds. 
+• Connections to many different ports. 
+• Thousands of DNS requests. 
+• Traffic sent to unknown IP addresses.
+
+Would these activities appear normal, or suspicious? The answer is suspicious, hundreds of connection attempts within seconds points to automated, in-human actions possibly using a c2 bot service, the connections to ports also show that the actor is trying to gain access to the network by looking for misconfigured firewall rules, the traffic sent to ip addresses also unfortunately shows a successful attempt and payloads actively being taken or downloaded into the system. 
 
 # Author
 
