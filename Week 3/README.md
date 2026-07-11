@@ -2,10 +2,10 @@
 Hands-on CyberSecurity internship projects showing practical experience with Tooling, Triaging, and Digital Forensics through technical documentation.
 
 # Objectives
-For week 3 our objectives were to
+For week 3 our objectives were to gain foundational knowledge of using the Splunk SIEM. Our learning objectives are learning to: understand the purpose of splunk, navigate the interface, perform searches using the SPL, exploring and analysing events, creating reports and dashboards, and to understand the fundamentals of knowledge objects.
 
-Kali pinging google: 
-![alt text](https://github.com/EtienneQuarteyPapafio/Nwise-Internship-Projects/blob/main/Week%201/Screenshots/KaliPingGoogle.png)
+
+![alt text]()
 
 # Author
 
