@@ -45,7 +45,7 @@ sudo passwd splunk
 ```
 We then grant the user permission to access the files
 ```
-chmod -R splunk:splunk /opt/splunk/
+chown -R splunk:splunk /opt/splunk/
 ```
 We then enable boot start for the user
 
