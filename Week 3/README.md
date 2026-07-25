@@ -40,12 +40,12 @@ We then grant the user permission to access the files
 ```
 sudo chown -R splunk:splunk /opt/splunk/
 ```
-We then enable boot start for the user
+We then enable boot start for the user. Which will ask you to accept a licence and create and admin name and password for accessing splunk in the webpage. 
 
 ```
 sudo /opt/splunk/bin/splunk enable boot-start -user splunk
 ```
-Which will ask you to accept a licence and create and admin name and password for accessing splunk in the webpage. Then we run splunk as the splunk user
+Then we run splunk as the splunk user
 
 ```
 sudo /opt/splunk/bin/splunk start -user splunk
