@@ -25,11 +25,7 @@ Then when the download is finished we install the package. It may tell you No su
 ```
 sudo dpkg -i splunk-10.4.1-5a009d941268-linux-amd64.deb
 ```
-When it says complete, we now need to accept the license, As of 2026 Splunk no longer recommends running splunk as a root user and instead opts for it to be run as a non admin user.
-
-```
-sudo /opt/splunk/bin/splunk start --accept-license
-```
+As of 2026 Splunk no longer recommends running splunk as a root user and instead opts for it to be run as a non admin user.
 
 We can create a new user account for running splunk, which may tell you a user named splunk already exists, in that case just set a password for the user.
 
@@ -49,7 +45,7 @@ We then enable boot start for the user
 ```
 sudo /opt/splunk/bin/splunk enable boot-start -user splunk
 ```
-Then we run splunk as the splunk user
+Which will ask you to accept a licence and create and admin name and password for accessing splunk in the webpage. Then we run splunk as the splunk user
 
 ```
 sudo /opt/splunk/bin/splunk start -user splunk
