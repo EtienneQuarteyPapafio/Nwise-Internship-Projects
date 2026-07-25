@@ -20,21 +20,18 @@ since i am using a debian based OS the link will be for a .deb package
 wget -O splunk-10.4.1-5a009d941268-linux-amd64.deb "https://download.splunk.com/products/splunk/releases/10.4.1/linux/splunk-10.4.1-5a009d941268-linux-amd64.deb"
 ```
 
-Then when the download is finished we install the package.
+Then when the download is finished we install the package. It may tell you No such file or directory for find: '/opt/splunk/lib....' you can ignore this.
 
 ```
 sudo dpkg -i splunk-10.4.1-5a009d941268-linux-amd64.deb
 ```
-We now need to accept the license
+When it says complete, we now need to accept the license, As of 2026 Splunk no longer recommends running splunk as a root user and instead opts for it to be run as a non admin user.
 
 ```
 sudo /opt/splunk/bin/splunk start --accept-license
 ```
-It may make you create an admin log in
 
-As of 2026 Splunk no longer recommends running splunk as a root user and instead opts for it to be run as a non admin user.
-
-We can create a new user account for running splunk
+We can create a new user account for running splunk, which may tell you a user named splunk already exists, in that case just set a password for the user.
 
 ```
 sudo useradd splunk
