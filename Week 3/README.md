@@ -55,6 +55,12 @@ If you are connected to your server via eth on a main computer or running it in 
 
 When on the same subnet connect to the webrowser with the url: (your splunk server ip:8000) in the search bar e.g 127.0.0.1:8000
 
+To install Splunk Universal Forwarder on Windows use Powershell:
+
+```
+wget "https://download.splunk.com/products/universalforwarder/releases/10.4.1/windows/splunkforwarder-10.4.1-5a009d941268-windows-x64.msi" ` -OutFile "splunkforwarder-10.4.1-5a009d941268-windows-x64.msi"
+```
+
 # Author
 
 Etienne Quartey-Papafio
